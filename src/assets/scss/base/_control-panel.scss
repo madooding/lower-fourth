@@ -1,0 +1,23 @@
+.control-panel {
+  @apply flex flex-col w-full;
+
+  .header {
+    @apply relative flex items-center w-full h-8 px-2 font-normal bg-gray-600 border-b border-b-gray-600;
+  }
+
+  .section {
+    @apply mt-2;
+
+    .header {
+      @apply h-6 border-b border-b-gray-600;
+    }
+
+    .board {
+      @apply flex flex-col items-start w-full p-2 bg-gray-500;
+    }
+  }
+
+  label {
+    @apply font-bold;
+  }
+}

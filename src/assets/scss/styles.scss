@@ -1,0 +1,7 @@
+@tailwind base;
+@import "./base/_fonts";
+
+@tailwind components;
+@tailwind utilities;
+
+@import "./base/control-panel"
